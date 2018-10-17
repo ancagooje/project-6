@@ -1,10 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
- class SearchPage extends React.Component {
-   render() {
-     return(
-
       class SearchPage extends Component {
         render () {
             return(
