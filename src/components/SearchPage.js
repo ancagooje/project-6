@@ -32,7 +32,7 @@ class SearchPage extends Component {
 
         // Execute the search on the query string and then process the response
         BooksAPI
-            .search(this.state.query)
+            .searchPage(this.state.query)
             .then(response => {
                 let newList = [];
                 let newError = false;
