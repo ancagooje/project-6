@@ -5,8 +5,8 @@ import * as BooksAPI from './BooksAPI'
 import * as BookUtils from './BookUtils';
 
 import './App.css'
-import BookCase from './components/BookCase';
-import Search from './components/Search';
+import MainPage from './components/MainPage';
+import SearchPage from './components/SearchPage';
 
 class BooksApp extends React.Component {
   state = {
@@ -70,15 +70,15 @@ class BooksApp extends React.Component {
         <Route
           exact
           path='/'
-          render={(() => (<BookCase
+          render={(() => (<MainPage
           books={this.state.books}
           onChangeShelf={this.changeShelf}
           onRefreshAllBooks={this.refreshAllBooks}/>))}/>
 
         <Route
           exact
-          path='/search'
-          render={(() => (<Search selectedBooks={this.state.books} onChangeShelf={this.changeShelf}/>))}/>
+          path='/searchPage'
+          render={(() => (<SearchPage selectedBooks={this.state.books} onChangeShelf={this.changeShelf}/>))}/>
 
       </div>
     )
