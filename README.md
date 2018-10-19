@@ -13,17 +13,29 @@ To get started developing right away:
 
 For this project I used many resources as it was my first project using React.
 I started with Maeva's tutorial at for a general introduction to the project:
+
 https://www.youtube.com/watch?v=i6L2jLHV9j8
+
 I watched Ryan Waite's tutorials on this project:
+
 https://www.youtube.com/watch?v=N8bU1oWlLwY&feature=youtu.be
+
 https://www.youtube.com/watch?v=acJHkd6K5kI&=&feature=youtu.be
+
 I found Doug Brown's walkthrough most useful in explaining the progression of steps and adding functionality:
+
 https://www.youtube.com/watch?v=OcL7-7cRpkQ&feature=youtu.be
+
 I consulted many resources on React, including:
+
 https://www.youtube.com/watch?v=8GXXGJRDMdQ
+
 I also consulted this introductory course on React:
+
 https://www.udemy.com/react-basic-in-just-1-hour/learn/v4/t/lecture/5331264?start=0
+
 I read several articles on React including:
+
 https://medium.freecodecamp.org/all-the-fundamental-react-js-concepts-jammed-into-this-single-medium-article-c83f9b53eac2
 
 ## What You're Getting
