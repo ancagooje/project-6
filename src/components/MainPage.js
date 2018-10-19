@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom';
-import BookShelf from "./BookShelf";
+import Shelf from "./Shelf";
 
 class MainPage extends Component {
     state = {}
@@ -53,7 +53,7 @@ class MainPage extends Component {
                     </div>
                     <div className="list-books-content">
                         <div>
-                            {shelves && shelves.map((shelf) => (<BookShelf
+                            {shelves && shelves.map((shelf) => (<Shelf
                                 key={shelf.name}
                                 shelf={shelf}
                                 onChangeShelf={this.props.onChangeShelf}

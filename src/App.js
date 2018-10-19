@@ -6,7 +6,7 @@ import * as BookUtils from './BookUtils';
 
 import './App.css'
 import MainPage from './components/MainPage';
-import SearchPage from './components/SearchPage';
+import Search from './components/Search';
 
 class BooksApp extends React.Component {
   state = {
@@ -16,7 +16,7 @@ class BooksApp extends React.Component {
      * users can use the browser's back and forward buttons to navigate between
      * pages, as well as provide a good URL they can bookmark and share.
      */
-    showSearchPage: false
+    showSearch: false
   }
 
   componentDidMount = () => {
@@ -77,8 +77,8 @@ class BooksApp extends React.Component {
 
         <Route
           exact
-          path='/searchPage'
-          render={(() => (<SearchPage selectedBooks={this.state.books} onChangeShelf={this.changeShelf}/>))}/>
+          path='/search'
+          render={(() => (<Search selectedBooks={this.state.books} onChangeShelf={this.changeShelf}/>))}/>
 
       </div>
     )
